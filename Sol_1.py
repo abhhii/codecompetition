@@ -1,0 +1,5 @@
+n = int(input())
+wt = list(map(int, input().split()))
+x = int(input())
+wt = sorted(wt, reverse = True)
+print(wt[x-1])
